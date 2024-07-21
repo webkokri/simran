@@ -1,0 +1,56 @@
+.page-pricing-2
+{
+    background: url(../imgs/page/pricing2/bg-banner.png) no-repeat top center;
+    background-size: 100% auto;
+}
+.tick-green
+{
+    background: url(../imgs/template/icons/icon-tick-green.svg) no-repeat center;
+    display: inline-block;
+    width: 23px;
+    vertical-align: middle;
+    height: 22px;
+}
+.icon-question-2
+{
+    background: url(../imgs/template/icons/icon-question-2.svg) no-repeat center;
+    display: inline-block;
+    width: 23px;
+    vertical-align: middle;
+    height: 22px;
+    margin: 0px 3px;
+}
+.text-bd-round
+{
+    margin: 0px 3x;
+    border-radius: 81px;
+    color: $color-gray-400;
+    border: 1px solid #818B98;
+    display: inline-block;
+    padding: 0px 6px 1px 6px;
+    vertical-align: middle;
+}
+.table-pricing
+{
+    font-size: $font-md;
+    line-height: 28px;
+    color: $color-gray-900;
+    font-family: $font-heading;
+    font-weight: 400;
+    text-align: center;
+    tr
+    {
+        td
+        {
+            padding: 14px 18px;
+            &:first-child
+            {
+                text-align: left;
+            }
+        }
+    }
+}
+.table-mw-700
+{
+    min-width: 700px;
+}

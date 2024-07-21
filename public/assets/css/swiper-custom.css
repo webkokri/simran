@@ -1,0 +1,12 @@
+.slider-nav-thumbnails .swiper-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.slider-nav-thumbnails .swiper-slide {
+  min-width: 177px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	color: #004b52;
+}

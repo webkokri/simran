@@ -1,0 +1,23 @@
+/*Page terms*/
+.table-of-content {
+    h6 {
+        font-weight: 700;
+    }
+    ul {
+        li {
+            padding: 5px 0;
+            a {
+                color: $color-gray-500;
+                transition-duration: 0.2s;
+                &:hover {
+                    color: $color-green-900;
+                    transition-duration: 0.2s;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
+.bdr-16 {
+    border-radius: 16px;
+}

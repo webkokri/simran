@@ -1,0 +1,111 @@
+.list-steps
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    li
+    {
+        display: inline-block;
+        width: 33%;
+        padding-right: 110px;
+        padding-bottom: 90px;
+        margin-bottom: 10px;
+        vertical-align: top;
+        position: relative;
+        &.icon-asset1
+        {
+            &::before
+            {
+                content: "";
+                height: 30px;
+                width: 77px;
+                background: url(../imgs/page/about/2/asset1.svg) no-repeat top right;
+                position: absolute;
+                top: 110px;
+                right: 15px;
+            }
+        }
+        &.icon-asset2
+        {
+            &::before
+            {
+                content: "";
+                height: 30px;
+                width: 77px;
+                background: url(../imgs/page/about/2/asset2.svg) no-repeat top right;
+                position: absolute;
+                top: 110px;
+                right: 15px;
+            }
+        }
+        &.icon-asset3
+        {
+            &::before
+            {
+                content: "";
+                height: 72px;
+                width: 60px;
+                background: url(../imgs/page/about/2/asset3.svg) no-repeat 0px 0px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                margin: auto;
+            }
+        }
+        &.icon-asset4
+        {
+            &::before
+            {
+                content: "";
+                height: 14px;
+                width: 77px;
+                background: url(../imgs/page/about/2/asset4.svg) no-repeat 0px 0px;
+                position: absolute;
+                top: 110px;
+                right: 15px;
+            }
+        }
+        .block-step
+        {
+            background-color: $background-bg-2;
+            padding: 38px 30px 30px 30px;
+            border-radius: 8px;
+            p.text-body-text
+            {
+                height: 50px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+.text-inter-lg
+{
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: $font-lg;
+    line-height: 28px;
+    color: $color-gray;
+}
+.block-gallery-1
+{
+    img
+    {
+        border-radius: 8px;
+    }
+}
+.block-pl
+{
+    padding-left: 80px;
+}
+.box-gray-100
+{
+    .icon-wave
+    {
+        &::before
+        {
+            top: -60px;
+            right: -20px;
+        }
+    }
+}

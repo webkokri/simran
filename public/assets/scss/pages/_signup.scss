@@ -1,0 +1,65 @@
+.images-lists
+{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    &::before
+    {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 65%;
+        z-index: 1;
+        width: 100%;
+        background-color: $background-white;
+    }
+    .col-lg-2, .col-lg-4
+    {
+        position: relative;
+    }
+    img
+    {
+        border-radius: 16px;
+        position: relative;
+        z-index: 2;
+    }
+    .img-1
+    {
+        position: relative;
+        top: -90px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .img-2
+    {
+        position: relative;
+        bottom: -110px;
+    }
+    .img-4
+    {
+        position: relative;
+        bottom: -150px;
+    }
+    .img-5
+    {
+        position: relative;
+        bottom: -10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+.form-group
+{
+    position: relative;
+}
+.link-edit
+{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}

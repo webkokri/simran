@@ -1,0 +1,184 @@
+.category-grid-3
+{
+    border: 1px solid $color-gray-200;
+    padding: 25px 5px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    &:hover
+    {
+        border-color: $background-bg-6;
+        box-shadow: $box-shadow-2;
+    }
+    .category-img
+    {
+        margin: 0px 0px 15px 0px;
+    }
+}
+.filters-products
+{
+    background-color: $color-gray-100;
+    border-radius: 8px;
+    padding: 20px;
+}
+.fitler-info
+{
+    width: 50%;
+    text-align: right;
+}
+.number-info
+{
+    width: 50%;
+}
+.bdr-18
+{
+    border-radius: 18px;
+}
+.box-green-2
+{
+    background-image: url(../imgs/page/shop1/bg-hand.png);
+    background-repeat: no-repeat;
+    background-position:  bottom right;
+    background-size: auto 340px;
+    position: relative;
+    .block-1
+    {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 210px;
+    }
+    .block-2
+    {
+        position: absolute;
+        top: 72%;
+        left: 43%;
+        width: 240px;
+    }
+}
+.dropdown-sort 
+{
+    line-height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    .dropdown-toggle
+    {
+        padding: 0px;
+        outline: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: $color-green-900;
+        i
+        {
+            color: #88929b;
+            float: right;
+            margin: 0px 7px 0px 0px;
+            font-size: 20px;
+        }
+        &::after 
+        {
+            border: 0px;
+        }
+    }
+}
+.dropdown 
+{
+    .dropdown-menu {
+        &.show
+        {
+            border: thin solid #ececec;
+            -webkit-box-shadow: 0px 9px 26px 0px rgba(31,31,51,0.06);
+            box-shadow: 0px 9px 26px 0px rgba(31,31,51,0.06);
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 0;
+            .dropdown-item
+            {
+                padding: 10px 20px;
+                font-size: 14px;
+                &.active {
+                    color: $color-green-900;
+                    text-decoration: none;
+                    background-color: $color-green-100;
+                }
+            }
+        }
+    }
+}
+.icon-sort
+{
+    background: url(../imgs/page/shop1/sort.svg) no-repeat left center;
+    padding: 0px 0px 0px 22px;
+    display: inline-block;
+}
+.icon-layout
+{
+    background: url(../imgs/page/shop1/layout.svg) no-repeat left center;
+    padding: 0px 0px 0px 22px;
+    display: inline-block;
+}
+.paginations {
+    margin: 30px 0px 50px 0px;
+    .pager {
+        padding: 0px;
+        li
+        {
+            display: inline-block;
+            vertical-align: middle;
+            a {
+                display: block;
+                padding: 10px 8px;
+                margin: 0px 5px;
+                font-weight: 700;
+                font-family: $font-text;
+                color: $color-gray-500;
+                line-height: 30px;
+                text-decoration: none;
+                position: relative;
+                font-size: 18px;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                text-align: center;
+                background-color: $color-gray-200;
+                
+                &:hover
+                {
+                    background-color: $color-green-900;
+                    color: $color-white;
+                }
+                &.prev-page
+                {
+                    background: $color-gray-200 url(../imgs/page/shop1/arrow-prev-gray.svg) no-repeat center;
+                    &:hover
+                    {
+                        background: $color-green-900 url(../imgs/page/shop1/arrow-prev-hover.svg) no-repeat center;
+                    }
+                }
+                &.next-page
+                {
+                    background: $color-gray-200 url(../imgs/page/shop1/arrow-next-gray.svg) no-repeat center;
+                    &:hover
+                    {
+                        background: $color-green-900 url(../imgs/page/shop1/arrow-next-hover.svg) no-repeat center;
+                    }
+                }
+                &.page-dotted
+                {
+                    background: $color-gray-200 url(../imgs/page/shop1/doted.svg) no-repeat center;
+                    &:hover
+                    {
+                        background: $color-green-900 url(../imgs/page/shop1/doted-hover.svg) no-repeat center;
+                    }
+                }
+            }
+        }
+    }
+}
+.product-item-2
+{
+    &:hover
+    {
+        border-color: $background-bg-6;
+    }
+}

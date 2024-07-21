@@ -1,0 +1,45 @@
+.blog-img-user
+{
+    position: relative;
+    padding: 7px 0px 0px 70px;
+    margin-top: 32px;
+    min-height: 60px;
+    .img-user-round
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 56px;
+        img
+        {
+            border-radius: 50%;
+            height: 56px;
+            width: 56px;
+        }
+    }
+    .text-heading-6
+    {
+        margin-bottom: 3px;
+    }
+}
+.card-list-style-1
+{
+    .blog-img-user
+    {
+        padding: 0px 0px 0px 51px;
+        margin-top: 15px;
+        .img-user-round
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 41px;
+            img
+            {
+                border-radius: 50%;
+                height: 41px;
+                width: 41px;
+            }
+        }
+    }
+}

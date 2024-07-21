@@ -1,0 +1,203 @@
+.sidebar
+{
+    border: 1px solid $color-gray-200;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 50px;
+    .widget-title
+    {
+        border-bottom: 1px solid $color-gray-200;
+        padding-bottom: 20px;
+    }
+}
+.list-type
+{
+    padding: 0px;
+    margin: 20px 0px 20px 0px;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    li
+    {
+        margin: 0px 0px 20px 0px;
+        label
+        {
+            margin-bottom: 0px;
+            width: 100%;
+            line-height: 20px;
+            input
+            {
+                float: left;
+                margin: 8px 10px 0px 0px;
+            }
+        }
+    }
+}
+.text-heading-7
+{
+    font-family: $font-heading;
+    font-weight: bold;
+    font-size: $font-sm;
+    line-height: 18px;
+    color: $color-gray-900;
+}
+.product-item-4
+{
+    border: 0px;
+    box-shadow: none !important;
+    padding: 0px 0px;
+    .product-image
+    {
+        float: left;
+        width: 65px;
+        height: auto;
+        min-height: auto;
+        line-height: 20px;
+        img
+        {
+            max-width: 100%;
+        }
+    }
+    .product-info
+    {
+        display: block;
+        padding: 0px;
+        padding-left: 80px;
+        .box-prices
+        {
+            width: 100%;
+        }
+    }
+}
+.list-products-sidebar
+{
+    list-style: none;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    li
+    {
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        &:last-child
+        {
+            .product-item-4
+            {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.sidebar-gray
+{
+    background-color: $color-gray-100;
+    border: 0px;
+}
+.text-email
+{
+    width: 100%;
+    padding: 14px 10px 12px 45px;
+    border-radius: 8px;
+    border: 0px;
+    background: $background-white url(../imgs/page/shop2/icon-email.svg) no-repeat center left 16px;
+}
+.btn-green-small
+{
+    padding: 12px 28px;
+    &:hover
+    {
+        background-image: none !important;
+    }
+}
+.circle-round
+{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: $color-green-900;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+.color-danger
+{
+    background-color: $color-danger;
+}
+.color-success
+{
+    background-color: $color-success;
+}
+.color-primary
+{
+    background-color: $color-primary;
+}
+.color-black
+{
+    background-color: $color-gray-900;
+}
+.color-warning
+{
+    background-color: $color-warning;
+}
+.btn-filter
+{
+    background-color: $background-bg-6;
+    padding: 14px 30px 13px 55px;
+    border-radius: 0px;
+    background-image: url(../imgs/page/shop2/filter.svg);
+    background-position: 30px center;
+    background-repeat: no-repeat;
+    font-size: $font-lg;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: $font-text;
+    color: $color-green-900;
+    &:hover
+    {
+        background-color: $background-bg-9;
+    }
+}
+.d-inline-block
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.dr-ltr
+{
+    direction: ltr;
+}
+.dr-rtl
+{
+    direction: rtl;
+}
+.banner-ads
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 60px 15px;
+    border-radius: 6px;
+    background: url(../imgs/page/shop2/banner-ads.png) no-repeat top center;
+    background-size: cover;
+    .text-head-ads
+    {
+        font-size: 39px;
+        line-height: 42px;
+        font-weight: bold;
+        font-family: $font-heading;
+        color: $color-green-900;
+    }
+    .desc-ads
+    {
+        font-size: 16px;
+        line-height: 20px;
+        color: $color-gray-500;
+        font-family: $font-heading;
+    }
+    .box-banner-ads
+    {
+        display: table;
+        margin: auto;
+        max-width: 510px;
+    }
+}

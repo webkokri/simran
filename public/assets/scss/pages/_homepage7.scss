@@ -1,0 +1,123 @@
+.list-social-banner
+{
+    position: relative;
+    padding: 6px 0px 0px 100px;
+    margin: 30px 0px 0px 0px;
+    .social-banner
+    {
+        display: inline-block;
+        height: 26px;
+        width: 26px;
+        margin-right: 7px;
+        &.facebook
+        {
+            background: url(../imgs/page/homepage7/facebook.svg) no-repeat center;
+        }
+        &.instagram
+        {
+            background: url(../imgs/page/homepage7/instagram.svg) no-repeat center;
+        }
+        &.twitter
+        {
+            background: url(../imgs/page/homepage7/twitter.svg) no-repeat center;
+        }
+        &.linkedin
+        {
+            background: url(../imgs/page/homepage7/linkedin.svg) no-repeat center;
+        }
+    }
+    &::before
+    {
+        content: "";
+        height: 1px;
+        background-color: $color-gray-400;
+        width: 85px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+    }
+}
+.block-img-we-do
+{
+    .block-control
+    {
+        position: absolute;
+        bottom: -40px;
+        right: 10px;
+        width: 190px;
+        img
+        {
+            box-shadow: $box-shadow-3;
+            border-radius: 16px;
+        }
+    }
+    .block-card
+    {
+        position: absolute;
+        top: 40px;
+        left: -20px;
+        width: 250px;
+        img
+        {
+            box-shadow: $box-shadow-3;
+            border-radius: 16px;
+        }
+    }
+}
+.img-small
+{
+    max-width: 80%;
+}
+.list-category-homepage7
+{
+    .row
+    {
+        margin: 0px -30px;
+    }
+    .col-xl-6
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.page-homepage7-bg
+{
+    position: relative;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    &::before
+    {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: -100px;
+        background: url(../imgs/page/homepage7/shadow-1.svg) no-repeat 0px 0px;
+        background-size: contain;
+        height: 1000px;
+        width: 100%;
+    }
+    &::after
+    {
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: 55%;
+        background: url(../imgs/page/homepage7/shadow-2.svg) no-repeat top right;
+        background-size: contain;
+        height: 1000px;
+        width: 100%;
+    }
+}
+.img-bottom
+{
+    display: flex;
+    align-items: flex-end;
+    .inner-image
+    {
+        display: flex;
+        align-items: flex-end;
+    }
+}

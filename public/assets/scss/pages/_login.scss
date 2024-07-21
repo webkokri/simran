@@ -1,0 +1,34 @@
+.box-login
+{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    img
+    {
+        vertical-align: top;
+    }
+    .box-login-form
+    {
+        max-width: 510px;
+        width: 100%;
+        margin: auto;
+    }
+    .login-right
+    {
+        padding-bottom: 120px;
+    }
+}
+@include media-breakpoint-up(xxl) {
+    //min-width: 992px
+    .login-left
+    {
+        width: 55%;
+    }
+    .login-right
+    {
+        width: 45%;
+    }
+}

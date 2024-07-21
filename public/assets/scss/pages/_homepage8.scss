@@ -1,0 +1,77 @@
+.list-search-popular
+{
+    padding: 0px;
+    margin: 25px 0px 0px 0px;
+    li
+    {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        a
+        {
+            color: $color-gray-500;
+            text-decoration: none;
+            font-size: $font-sm;
+            line-height: 14px;
+            font-weight: bold;
+        }
+    }
+}
+.page-homepage8
+{
+    .header {
+        background: $background-white;
+        z-index: 12;
+        border-bottom: 1px solid $color-gray-200;
+    }
+    .main
+    {
+        position: relative;
+        z-index: 3;
+    }
+    &::before
+    {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        background: url(../imgs/page/homepage8/bg-homepage8.svg) no-repeat top 50px left 800px;
+        background-size: contain;
+        height: 600px;
+        width: 100%;
+        z-index: 1;
+    }
+}
+.list-icons-round
+{
+    .item-icon
+    {
+        position: relative;
+        padding: 0px 0px 40px 90px;
+        margin-bottom: 40px;
+        border-bottom: 2px solid $color-gray-200;
+        &.none-bd
+        {
+            border-bottom: 0px;
+            padding: 0px 0px 20px 90px;
+            margin-bottom: 20px;
+        }
+        .icon-left
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            box-shadow: $box-shadow-1;
+            line-height: 64px;
+            text-align: center;
+            img
+            {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+}
