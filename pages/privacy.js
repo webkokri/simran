@@ -207,7 +207,7 @@ function Privacy() {
 <p>By email: support@siman.ca</p>
 </li>
 <li>
-<p>By visiting this page on our website: <a href="http://siman.ca/contact-us" rel="external nofollow noopener" target="_blank">http://siman.ca/contact-us</a></p>
+<p>By visiting this page on our website: <a href="/contact-us" rel="external nofollow noopener" target="_blank">http://siman.ca/contact-us</a></p>
 </li>
 </ul>
 
