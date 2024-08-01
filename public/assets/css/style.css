@@ -9116,3 +9116,54 @@ input.qty-val {
   }
 }
 /*# sourceMappingURL=style.css.map */
+/* custom css starts here */
+
+.grid-4-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-4-img img {
+  transition: filter 0.3s;
+}
+
+.grid-4-img:hover img {
+  filter: blur(150px);
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 50px;
+}
+
+.grid-4-img:hover .hover-content {
+  opacity: 1;
+}
+h4.text-heading-4.teamname.mb-10 {
+  color: white;
+}
+.grid-4-img img {
+  width: 100%;
+  height: 450px;
+}
+
+.col-md-12.footernotice.text-center {
+  /* margin: 15px; */
+  border-top: 1px solid #E4E7EC;
+  padding-top: 30px;
+  width: 40%;
+  margin: auto;
+}
+

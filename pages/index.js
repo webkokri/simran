@@ -358,7 +358,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                 <div className="line-bd-green mt-50" />
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-care">
+                                        <h4 className="text-heading-6 icon-leaf">
                                             Listen & Understand
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
@@ -366,7 +366,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                         </p>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-board">
+                                        <h4 className="text-heading-6 icon-leaf">
                                             Plan
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
@@ -374,7 +374,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                         </p>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-design">
+                                        <h4 className="text-heading-6 icon-leaf">
                                             Design
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
@@ -382,7 +382,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                         </p>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-code">
+                                        <h4 className="text-heading-6 icon-leaf">
                                             Development
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
@@ -391,8 +391,8 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                     </div>
 
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-code">
-                                            delivery
+                                        <h4 className="text-heading-6 icon-leaf">
+                                            Delivery
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
                                         Timely delivery with meticulous attention to client requirements.
@@ -400,7 +400,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                     </div>
 
                                     <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-code">
+                                        <h4 className="text-heading-6 icon-leaf">
                                             Maintenance
                                         </h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">
@@ -429,7 +429,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
                             <div className="container mt-50 text-center">
-                            <a className="btn btn-black icon-arrow-right-white" href="https://siman.ca/contact-us">Get Started</a>
+                            <a className="btn btn-black icon-arrow-right-white" href="/contact-us">Get Started</a>
                             </div>
                         </div>
                     </div>

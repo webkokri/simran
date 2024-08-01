@@ -64,7 +64,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </li>
                                         
                                         <li className="contact-us">
-                                        <Link href="/contact-us" legacyBehavior><a>Portfolio</a></Link>
+                                        <Link href="/contact-us" legacyBehavior><a>Contact Us</a></Link>
                                         </li>
                                     </ul>
                                 </nav>

@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  distDir: "build",
-  // output: 'export',
-  output: 'standalone',
+}
+
+module.exports = {
+  output: 'export',
   images: {
     loader: "custom",
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -19,6 +20,6 @@ const nextConfig = {
     nextImageExportOptimizer_generateAndUseBlurImages: "true",
     nextImageExportOptimizer_remoteImageCacheTTL: "0",
   },
+  
+  
 };
-
-module.exports = nextConfig;

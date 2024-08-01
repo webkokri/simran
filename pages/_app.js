@@ -5,6 +5,9 @@ import React, { useEffect, useState } from "react";
 import Preloader from '../components/elements/Preloader';
 import Head from 'next/head';
 
+import { BrowserRouter, Route, Routes } from 'next/router';
+import ChatPage from '../pages/ChatPage';
+
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -31,6 +34,8 @@ function MyApp({ Component, pageProps }) {
           <meta name="author" content="Siman Infotech" />
           <link rel="icon" href="favicon.ico" type="image/x-icon" />
           <meta name="keywords" content="Mobile and Web Applications, On Demand Technology Solutions, CRM, Customer Relationship Management, Sale and Purchase Software, Order Management Software, Billing Management Software, GST Invoicing, ERP, Software Development, Mobile App Development Company, Siman Infotech - Custom Software Development in Canada, Custom Software Development in Manitoba, Custom Software Development in Winnipeg, Web Designing and Web Development, SEO, SMO, Social Media Marketing, Digital Marketing, Graphic Designing, Crypto Software Development etc." />
+        
+          
         </Head>
         <Component {...pageProps} />
       </div>

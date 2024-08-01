@@ -31,19 +31,13 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Contact</h4>
-                            <div className="mt-20 text-body-text color-gray-600 mb-20">162, Heartstone Dr, Winnipeg, Manitoba, Canada</div>
-                            <div className="mt-20 text-body-text color-gray-600">+1 204 881 2662</div>
-                            <div className="mt-20 text-body-text color-gray-600">+1 204 442 0911</div>
+                            <div className="text-body-text color-gray-600 mb-5">162, Heartstone Dr, Winnipeg, Manitoba, Canada</div>
                             <div className="text-body-text color-gray-600">info@siman.ca</div>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">About Us</h4>
                             <ul className="menu-footer mt-20">
-                                <li>
-                                    <Link href="/mission" legacyBehavior>
-                                        <a>Mission and Vision</a>
-                                    </Link>
-                                </li>
+                                
                                 <li>
                                     <Link href="/team" legacyBehavior>
                                         <a>Our Team</a>
@@ -61,17 +55,13 @@ const Footer = () => {
                             <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="/calculator" legacyBehavior>
-                                        <a>Pricing</a>
+                                    <Link href="https://siman.ca/training.php" legacyBehavior>
+                                        <a>Industrial Training</a>
                                     </Link>
                                 </li>
+                                
                                 <li>
-                                    <Link href="/payments" legacyBehavior>
-                                        <a>Payments</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/testimonials" legacyBehavior>
+                                    <Link href="/about" legacyBehavior>
                                         <a>Testimonials</a>
                                     </Link>
                                 </li>
@@ -91,11 +81,7 @@ const Footer = () => {
                                         <a>Contact Us</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/contact-us" legacyBehavior>
-                                        <a>Our Locations</a>
-                                    </Link>
-                                </li>
+                               
                             </ul>
                         </div>
                         <div className="col-lg-3 width-16">
@@ -111,11 +97,7 @@ const Footer = () => {
                                         <a>Term & Condtions</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/disclaimer" legacyBehavior>
-                                        <a>Disclaimer</a>
-                                    </Link>
-                                </li>
+                                
                                 
                             </ul>
                         </div>
@@ -124,9 +106,6 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <span className="color-gray-400 text-body-lead">© Siman Infotech 2024</span>
-                                <Link href="https://kokriweb.in/" legacyBehavior>
-                                    <a className="text-body-text color-gray-500 ml-50">We are a sister concern of Kokri Web Solutions.</a>
-                                </Link>
                                 
                             </div>
                             <div className="col-md-6 text-center text-lg-end text-md-end">
@@ -145,6 +124,13 @@ const Footer = () => {
                                     </Link>
                                     
                                 </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12 footernotice text-center">
+                            <Link href="https://kokriweb.in/" legacyBehavior>
+                                    <a className="text-body-text color-gray-500 ml-50">We are a sister concern of Kokri Web Solutions.</a>
+                                </Link>
                             </div>
                         </div>
                     </div>

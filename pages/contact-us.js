@@ -1,7 +1,34 @@
 import Layout from "../components/layout/Layout";
-
+import { useState } from 'react';
 
 function Contact() {
+    const [name, setName] = useState('');
+    const [company, setCompany] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        // You can add validation logic here if needed
+
+        // Make an API request to your server-side API or a third-party service
+        // For example, you can use the `fetch` API or a library like Axios
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, company, email, phone, message }),
+            });
+            const data = await response.json();
+            console.log(data);
+            // Handle the response data here
+        } catch (error) {
+            console.error(error);
+            // Handle the error here
+        }
+    };
+
     return (
         <>
             <Layout>
@@ -31,21 +58,60 @@ function Contact() {
                                 <div className="col-lg-8">
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Enter your name" /></div>
+                                            <div className="form-group">
+                                                <input
+                                                    className="form-control"
+                                                    placeholder="Enter your name"
+                                                    value={name}
+                                                    onChange={(event) => setName(event.target.value)}
+                                                />
+                                            </div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Comapy (optioanl)" /></div>
+                                            <div className="form-group">
+                                                <input
+                                                    className="form-control"
+                                                    placeholder="Comapy (optioanl)"
+                                                    value={company}
+                                                    onChange={(event) => setCompany(event.target.value)}
+                                                />
+                                            </div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Your email" /></div>
+                                            <div className="form-group">
+                                                <input
+                                                    className="form-control"
+                                                    placeholder="Your email"
+                                                    value={email}
+                                                    onChange={(event) => setEmail(event.target.value)}
+                                                />
+                                            </div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Phone number" /></div>
+                                            <div className="form-group">
+                                                <input
+                                                    className="form-control"
+                                                    placeholder="Phone number"
+                                                    value={phone}
+                                                    onChange={(event) => setPhone(event.target.value)}
+                                                />
+                                            </div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself"  /></div>
+                                            <div className="form-group">
+                                                <textarea
+                                                    className="form-control"
+                                                    placeholder="Tell us about yourself"
+                                                    value={message}
+                                                    onChange={(event) => setMessage(event.target.value)}
+                                                />
+                                            </div>
                                         </div>
-                                        <div className="col-lg-12 mt-15"><button className="btn btn-black icon-arrow-right-white mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
+                                        <div className="col-lg-12 mt-15">
+                                            <button className="btn btn-black icon-arrow-right-white mr-40 mb-20" type="submit" onClick={handleSubmit}>Send Message</button>
+                                            <br className="d-lg-none d-block" />
+                                            <span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

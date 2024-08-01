@@ -53,42 +53,36 @@ const Sidebar = ({ openClass }) => {
 
                                             <Link href="/about" legacyBehavior><a>About</a></Link>
                                             </li>
-                                        <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(3)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
 
-                                            <Link href="#" legacyBehavior><a>Services</a></Link>
-                                            <ul className={isActive.key == 3 ? "sub-menu d-block" : "sub-menu d-none"}>
+                                            <li className={isActive.key == 3 ? "services active" : "services"}>
+                                            <span onClick={() => handleToggle(3)}  className="menu-expand"></span>
+
+                                            <Link href="/services" legacyBehavior><a>Services</a></Link>
+                                             </li>
+
+                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"}>
+                                            <span onClick={() => handleToggle(4)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+
+                                            <Link href="" onClick={() => handleToggle(4)} legacyBehavior><a>Products</a></Link>
+                                            <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
                                             <li>
-                                                    <Link href="/search-engine-optimization" legacyBehavior><a>Search Engine Optimization (SEO)</a></Link>
+                                                    <Link href="/billing" legacyBehavior><a>Billing Software (Cloud)</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/social-media-marketing" legacyBehavior><a>Social Media Marketing</a></Link>
+                                                    <Link href="/crm-general" legacyBehavior><a>CRM (General)</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/digital-marketing" legacyBehavior><a>Digital Marketing</a></Link>
+                                                    <Link href="/crm-immigrations" legacyBehavior><a>CRM (Immigrations)</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/website-designing" legacyBehavior><a>Web Designing & Development</a></Link>
+                                                    <Link href="/radio-broadcasting" legacyBehavior><a>Radio Broadcasting (Cloud)</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/custom-software-development" legacyBehavior><a>Custom Software Development</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/mobile-apps-development" legacyBehavior><a>Mobile Application Development</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/radio-tv-development" legacyBehavior><a>Radio & TV Software Development</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/iptv-services" legacyBehavior><a>IPTV Solutions</a></Link>
+                                                    <Link href="/tv-broadcasting" legacyBehavior><a>TV Broadcasting (Cloud)</a></Link>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className={isActive.key == 4 ? "products active" : "products"}>
-                                            <span onClick={() => handleToggle(4)}  className="menu-expand"></span>
-
-                                            <Link href="/products" legacyBehavior><a>Products</a></Link>
-                                             </li>
+                                        
                                         <li className={isActive.key == 5 ? "has-children active" : "has-children"}>
                                             <span onClick={() => handleToggle(5)}  className="menu-expand"></span>
 

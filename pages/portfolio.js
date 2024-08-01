@@ -1,74 +1,179 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
-import BlogSlider from "../components/slider/Blog";
+import OfferSlider from "../components/slider/Offer";
 
 
 function Portfolio() {
     return (
         <>
+
             <Layout>
-                   
-                    <section className="section-box">
-                        <div className="container mt-30">
-                            <div className="row">
-                                <div className="col-lg-1 col-sm-1 col-12" />
-                                <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                    <h2 className="text-heading-1 color-gray-900 mb-10">Our Previous Work</h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">&nbsp;</p>
-                                </div>
-                                <div className="col-lg-1 col-sm-1 col-12" />
+                
+                
+                <section className="section-box mt-90">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-2 col-sm-1 col-12" />
+                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Look at our portfolio</h2><h4>A showcase of expertise and achievements.</h4>
+                                
                             </div>
+                            <div className="col-lg-2 col-sm-1 col-12" />
                         </div>
-                        <div className="container mt-90">
-                            <div className="row">
-
-                                <div className="col-lg-4 col-sm-12 pr-30 mb-50">
-                                    <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                        <Link href="/blog-single" legacyBehavior><a className="text-heading-4">We can blend colors multiple ways, the most common
-                                        </a></Link>
-
-                                        <div className="grid-4-img">
-                                            <Link href="/blog-single" legacyBehavior><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" />
-                                            </a></Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="mt-20 mb-30 text-center">
-                                <Link href="/blog-2" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Load more posts
-                                </a></Link>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="section-box overflow-visible mb-100">
-                        <div className="container mt-100">
-                            <div className="row">
-                                <div className="col-lg-10 mx-auto">
-                                    <div className="bg-6 box-newsletter position-relative">
-                                        <div className="row">
-                                            <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
-                                                <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
-                                                <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
-
-                                                <Link href="/page-terms" legacyBehavior><a>Term and Conditions
-                                                </a></Link>
-
-                                                <div className="box-form-newsletter mt-30">
-                                                    <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                                <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="Agon" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="Agon" />
-                                            </div>
-                                        </div>
+                    </div>
+                    <div className="container mt-90 mb-100">
+                        <div className="row">
+                            <div className="col-lg-6 col-sm-12 mb-50">
+                                <div className="bg-2 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Redstone Immigrations</h4>
+                                    <p className="text-body-text-md color-gray-600">An Immigration Website.</p>
+                                    <div className="box-image-inner bg-color-1">
+                                    <Link href="https://redstoneimmigration.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/redstone.png" alt="Redstone Immigrations" />
+                                     </Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">GKM Media</h4>
+                                    <p className="text-body-text-md color-gray-600">An online radio, tv and news platform.</p>
+                                    <div className="box-image-inner bg-color-2">
 
+                                    <Link href="https://gkmmedia.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/gkmmedia.png" alt="Gkm Media" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Imara Counseling Services</h4>
+                                    <p className="text-body-text-md color-gray-600">Website for a group of mental health professionals.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://imaracounseling.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/imara.png" alt="Imara Counseling Services" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">The Punjab Talks</h4>
+                                    <p className="text-body-text-md color-gray-600">An online news portal, radio and live tv channel.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://thepunjabtalks.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/thepunjabtalks.png" alt="The Punjab Talks" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Indi Radio</h4>
+                                    <p className="text-body-text-md color-gray-600">An online Radio Station.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://indiradio.ca/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/indiradio.png" alt="Indiradio" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">JP Electricals</h4>
+                                    <p className="text-body-text-md color-gray-600">A local Electrical Store.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://jpelectricals.in/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/jpelectricals.png" alt="JP Electricals" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Counter Culture Coffee</h4>
+                                    <p className="text-body-text-md color-gray-600">A Coffee Brand.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://counterculturecoffee.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/gemini.png" alt="Counter Culture Coffee" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">ARCHITECTS</h4>
+                                    <p className="text-body-text-md color-gray-600">A home design ARCHITECTS.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://www.quattrodesign.co.uk/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/quattro.png" alt="ARCHITECTS" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">Air Ticket</h4>
+                                    <p className="text-body-text-md color-gray-600">A air ticket counter.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://www.airtkt.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/airtkt.png" alt="A Air Ticket Counter" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-12  mb-50">
+                                <div className="bg-6 box-square hover-up">
+                                    <h4 className="text-heading-4 color-gray-900 mb-15">VDI</h4>
+                                    <p className="text-body-text-md color-gray-600">Simulation technology for learning experiences that last.</p>
+                                    <div className="box-image-inner bg-color-2">
+
+                                    <Link href="https://driverinteractive.com/" target="_blank" rel="noopener noreferrer">
+                                     <img src="/assets/imgs/page/portfolio/vdi.png" alt="VDI" />
+                                     </Link>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div className="col-sm-12 text-center">
+                            <button className="btn btn-black icon-arrow-right-white mr-40 mb-20" >Load More...</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+                
             </Layout>
 
         </>
