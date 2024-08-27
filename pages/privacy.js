@@ -204,10 +204,10 @@ function Privacy() {
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
 <li>
-<p>By email: support@siman.ca</p>
+<p>By email: support@siman.ca / info@siman.ca</p>
 </li>
 <li>
-<p>By visiting this page on our website: <Link href="/contact-us" rel="external nofollow noopener" target="_blank"><a>http://siman.ca/contact-us</a></Link></p>
+<p>By visiting this page on our website: http://siman.ca/contact-us</p>
 </li>
 </ul>
 
