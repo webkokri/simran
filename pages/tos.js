@@ -52,13 +52,13 @@ function Terms() {
 <p><strong>Service</strong> refers to the Website.</p>
 </li>
 <li>
-<p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank">Terms and Conditions Generator</a>.</p>
+<p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.</p>
 </li>
 <li>
 <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
 </li>
 <li>
-<p><strong>Website</strong> refers to Siman Infotech, accessible from <a href="https://siman.ca" rel="external nofollow noopener" target="_blank">https://siman.ca</a></p>
+<p><strong>Website</strong> refers to Siman Infotech, accessible from <Link href="https://siman.ca" rel="external nofollow noopener" target="_blank"><a>https://siman.ca</a></Link></p>
 </li>
 <li>
 <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
@@ -111,7 +111,7 @@ You agree that the original English text shall prevail in the case of a dispute.
 <p>By email: support@siman.ca</p>
 </li>
 <li>
-<p>By visiting this page on our website: <a href="/contact-us" rel="external nofollow noopener" target="_blank">https://siman.ca/contact-us</a></p>
+<p>By visiting this page on our website: <Link href="/contact-us" rel="external nofollow noopener" target="_blank"><a>https://siman.ca/contact-us</a></Link></p>
 </li>
 </ul>
 

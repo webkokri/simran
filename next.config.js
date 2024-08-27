@@ -1,6 +1,35 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
+    return {
+      '/': { page: '/' },
+      '/about': { page: '/about' },
+      '/services': { page: '/services' },
+      '/billing': { page: '/billing' },
+      '/crm-general': { page: '/crm-general' },
+      '/crm-immigrations': { page: '/crm-immigrations' },
+      '/radio-broadcasting': { page: '/radio-broadcasting' },
+      '/tv-broadcasting': { page: '/tv-broadcasting' },
+      '/portfolio': { page: '/portfolio' },
+      '/contact-us': { page: '/contact-us' },
+      '/faq': { page: '/faq' },
+      '/team': { page: '/team' },
+      '/career': { page: '/career' },
+      '/privacy': { page: '/privacy' },
+      '/tos': { page: '/tos' },
+
+      // Add more routes as needed
+    }
+  },
+  getStaticProps: async () => {
+    return {
+      fallback: true,
+    }
+  },
 }
 
 module.exports = {

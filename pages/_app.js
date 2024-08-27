@@ -6,7 +6,7 @@ import Preloader from '../components/elements/Preloader';
 import Head from 'next/head';
 
 import { BrowserRouter, Route, Routes } from 'next/router';
-import ChatPage from '../pages/ChatPage';
+//import ChatPage from '../pages/ChatPage';
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);

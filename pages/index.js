@@ -429,7 +429,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
                             <div className="container mt-50 text-center">
-                            <a className="btn btn-black icon-arrow-right-white" href="/contact-us">Get Started</a>
+                            <Link className="btn btn-black icon-arrow-right-white" href="/contact-us"><a>Get Started</a></Link>
                             </div>
                         </div>
                     </div>
